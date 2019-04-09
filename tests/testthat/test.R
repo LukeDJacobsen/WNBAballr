@@ -5,5 +5,9 @@ test_that('WNBAPerGameAdvStatistics works',{
 })
 
 test_that('WNBAPerGameStatistics works',{
-  expect_equal(dim(WNBAPerGameStatistics(2017))[1], 190)
+  expect_equal(dim(WNBAPerGameStatistics(2017))[1], 178)
+})
+
+test_that('WNBAPerGameStatisticsPer36Min works',{
+  expect_equal(dim(WNBAPerGameStatistics(2016))[1], 174)
 })
