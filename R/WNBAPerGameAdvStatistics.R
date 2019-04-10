@@ -13,7 +13,7 @@ WNBAPerGameAdvStatistics <- function(season = 2018){
   wnba_list <- rvest::html_table(pg, fill = T)[[1]]
   wnba_df <- as.data.frame(wnba_list)
   wnba_df <- janitor::remove_empty(wnba_df, "cols")
-  wnba_stats <- wnba_df %>% dplyr::filter(Player != "Player")
+  wnba_stats <- wnba_df %>% janitor::clean_names() %>% dplyr::filter(.data$player != "Player")
   return(wnba_stats)
 }
 
