@@ -12,9 +12,8 @@ WNBAPerGameAdvStatistics <- function(season = 2018){
   pg <- xml2::read_html(wnba_url)
   wnba_list <- rvest::html_table(pg, fill = T)[[1]]
   wnba_df <- as.data.frame(wnba_list)
-  wnba_stats <- wnba_df[,-16] %>% dplyr::filter(Player != "Player")
+  wnba_df <- janitor::remove_empty(wnba_df, "cols")
+  wnba_stats <- wnba_df %>% dplyr::filter(Player != "Player")
   return(wnba_stats)
 }
-
-
 
