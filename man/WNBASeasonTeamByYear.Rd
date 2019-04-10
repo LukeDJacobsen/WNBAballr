@@ -18,5 +18,5 @@ An object of class tbl_df containing team summary statistics for a season. Note 
 Season and Team Stats for WNBA team
 }
 \examples{
-WNBASeasonTeamByYear(team = "Min", season = 2018)
+WNBASeasonTeamByYear(team = "MIN", season = 2018)
 }

@@ -5,7 +5,7 @@
 #' @return An object of class tbl_df containing team summary statistics for a season. Note this is a different result than 'NBASeasonTeamByYear' in ballr package because basketball-reference.com provides different information between NBA and WNBA.
 #'
 #'@examples
-#' WNBASeasonTeamByYear(team = "Min", season = 2018)
+#' WNBASeasonTeamByYear(team = "MIN", season = 2018)
 
 WNBASeasonTeamByYear <- function(team, season = 2018){
   url <- paste("https://www.basketball-reference.com/wnba/teams/", team, "/",

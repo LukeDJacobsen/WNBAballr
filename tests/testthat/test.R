@@ -19,3 +19,7 @@ test_that('WNBAPlayerPerGameStats works',{
 test_that('WNBASeasonTeamByYear works',{
   expect_equal(dim(WNBASeasonTeamByYear("MIN", season = 2018))[2], 24)
 })
+
+test_that('WNBAStandingsBySeason works',{
+  expect_equal(WNBAStandingsBySeason(2014)[[1]][1,2], 19)
+})
