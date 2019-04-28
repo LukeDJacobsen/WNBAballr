@@ -1,10 +1,10 @@
 Package: WNBAballr
 Type: Package
-Title: Scapes WNBA data from basketball-reference.com
+Title: Scrapes WNBA data From basketball-reference.com
 Version: 0.1.0
 Author: Luke Jacobsen
 Maintainer: Luke Jacobsen <lukedjacobsen@gmail.com>
-Description: Functions to access WNBA data on basketball-reference.com. This package is based off of the ballr package.
+Description: Functions to access WNBA data on basketball-reference.com. This package is based off of the 'ballr' package created by Ryan Elmore and Peter DeWitt.
 License: GPL
 Encoding: UTF-8
 LazyData: true
