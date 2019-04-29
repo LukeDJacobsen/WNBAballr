@@ -19,4 +19,5 @@ Season and Team Stats for WNBA team
 }
 \examples{
 WNBASeasonTeamByYear(team = "MIN", season = 2018)
+
 }

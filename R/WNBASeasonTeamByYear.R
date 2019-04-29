@@ -6,6 +6,8 @@
 #'
 #'@examples
 #' WNBASeasonTeamByYear(team = "MIN", season = 2018)
+#'
+#' @export
 
 WNBASeasonTeamByYear <- function(team, season = 2018){
   url <- paste("https://www.basketball-reference.com/wnba/teams/", team, "/",

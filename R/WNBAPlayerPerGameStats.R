@@ -5,6 +5,8 @@
 #'
 #'@examples
 #'WNBAPlayerPerGameStats('/players/f/fowlesy01w.html')
+#'
+#'@export
 
 
 WNBAPlayerPerGameStats <- function(player_link){

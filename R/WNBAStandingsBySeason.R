@@ -5,6 +5,8 @@
 #'
 #'@examples
 #' WNBAStandingsBySeason(2018)
+#'
+#' @export
 
 
 

@@ -5,6 +5,8 @@
 #'
 #'@examples
 #' WNBAPerGameAdvStatistics(2018)
+#'
+#' @export
 
 WNBAPerGameAdvStatistics <- function(season = 2018){
   wnba_url <- paste("http://www.basketball-reference.com/wnba/years/",

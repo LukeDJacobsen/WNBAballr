@@ -5,6 +5,8 @@
 #'
 #'@examples
 #' WNBAPerGameStatistics(2018)
+#'
+#' @export
 
 
 

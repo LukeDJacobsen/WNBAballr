@@ -17,4 +17,5 @@ WNBA Player Statistics For a Given Season per 36 Minutes
 }
 \examples{
 WNBAPerGameStatisticsPer36Min(2018)
+
 }

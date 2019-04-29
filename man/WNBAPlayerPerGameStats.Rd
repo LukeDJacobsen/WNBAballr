@@ -17,4 +17,5 @@ WNBA Player Career Statistics
 }
 \examples{
 WNBAPlayerPerGameStats('/players/f/fowlesy01w.html')
+
 }

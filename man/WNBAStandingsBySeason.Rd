@@ -17,4 +17,5 @@ Standings of WNBA season standings
 }
 \examples{
 WNBAStandingsBySeason(2018)
+
 }

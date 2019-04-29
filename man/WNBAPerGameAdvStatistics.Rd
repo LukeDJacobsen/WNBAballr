@@ -17,4 +17,5 @@ WNBA Player Advanced Statistics For a Given Season
 }
 \examples{
 WNBAPerGameAdvStatistics(2018)
+
 }
