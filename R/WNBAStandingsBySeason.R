@@ -1,4 +1,4 @@
-#' Standings of WNBA season standings
+#' Standings for WNBA season
 #'
 #' @param season A numeric year
 #' @return A list that contains the Eastern and Western Conference WNBA standings for a season.

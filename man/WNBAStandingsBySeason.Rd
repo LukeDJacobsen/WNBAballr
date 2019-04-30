@@ -2,7 +2,7 @@
 % Please edit documentation in R/WNBAStandingsBySeason.R
 \name{WNBAStandingsBySeason}
 \alias{WNBAStandingsBySeason}
-\title{Standings of WNBA season standings}
+\title{Standings for WNBA season}
 \usage{
 WNBAStandingsBySeason(season = 2018)
 }
@@ -13,7 +13,7 @@ WNBAStandingsBySeason(season = 2018)
 A list that contains the Eastern and Western Conference WNBA standings for a season.
 }
 \description{
-Standings of WNBA season standings
+Standings for WNBA season
 }
 \examples{
 WNBAStandingsBySeason(2018)

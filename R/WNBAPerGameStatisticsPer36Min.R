@@ -20,4 +20,3 @@ WNBAPerGameStatisticsPer36Min <- function(season = 2018){
     dplyr::filter(.data$player != 'Player')
   return(wnba_stats)
 }
-WNBAPerGameStatisticsPer36Min()

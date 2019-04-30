@@ -16,4 +16,3 @@ WNBASeasonTeamByYear <- function(team, season = 2018){
   team_stats <- rvest::html_table(pg, fill = T)[[1]]
   return(team_stats)
 }
-dim(WNBASeasonTeamByYear('MIN', season = 2018))
