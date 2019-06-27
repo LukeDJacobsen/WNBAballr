@@ -13,7 +13,7 @@ test_that('WNBAPerGameStatisticsPer36Min works',{
 })
 
 test_that('WNBAPlayerPerGameStats works',{
-  expect_equal(dim(WNBAPlayerPerGameStats('/players/f/fowlesy01w.html'))[[1]], 12)
+  expect_equal(dim(WNBAPlayerPerGameStats('/players/f/fowlesy01w.html'))[[1]], 13)
 })
 
 test_that('WNBASeasonTeamByYear works',{
